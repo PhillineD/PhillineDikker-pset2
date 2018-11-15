@@ -38,7 +38,7 @@ public class Story implements Serializable {
     }
 
     /** constructs a new Story reading its text from the given input stream */
-    // een van de verhaaltjes gaan inladen om een instantie van story aan te maken 
+    // een van de verhaaltjes gaan inladen om een instantie van story aan te maken
     public Story(InputStream stream) {
         read(stream);
     }
