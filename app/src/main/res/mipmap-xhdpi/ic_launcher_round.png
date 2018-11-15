@@ -1,0 +1,114 @@
+<application>
+  <component name="ActionsCollector">
+    <counts>
+      <entry action="$Copy" count="4" />
+      <entry action="$Delete" count="12" />
+      <entry action="$Paste" count="23" />
+      <entry action="$SelectAll" count="1" />
+      <entry action="$Undo" count="387" />
+      <entry action="ActivateLogcatToolWindow" count="2" />
+      <entry action="ActivateProjectToolWindow" count="1" />
+      <entry action="ChangesView.AddUnversioned.From.Dialog" count="1" />
+      <entry action="ChangesView.Refresh" count="1" />
+      <entry action="ChangesView.Shelve" count="1" />
+      <entry action="CheckForUpdate" count="1" />
+      <entry action="CheckinFiles" count="10" />
+      <entry action="CheckinProject" count="32" />
+      <entry action="CloseProject" count="1" />
+      <entry action="CodeCompletion" count="2" />
+      <entry action="CollapseSelection" count="3" />
+      <entry action="CommentByLineComment" count="148" />
+      <entry action="CopyReference" count="2" />
+      <entry action="CreateRunConfiguration" count="1" />
+      <entry action="EditorBackSpace" count="5004" />
+      <entry action="EditorChooseLookupItem" count="22" />
+      <entry action="EditorChooseLookupItemReplace" count="482" />
+      <entry action="EditorCodeBlockEnd" count="1" />
+      <entry action="EditorCopy" count="233" />
+      <entry action="EditorCut" count="37" />
+      <entry action="EditorDelete" count="117" />
+      <entry action="EditorDeleteToWordEnd" count="7" />
+      <entry action="EditorDeleteToWordStart" count="2" />
+      <entry action="EditorDown" count="9590" />
+      <entry action="EditorEnter" count="986" />
+      <entry action="EditorEscape" count="1" />
+      <entry action="EditorIndentSelection" count="4" />
+      <entry action="EditorLeft" count="1527" />
+      <entry action="EditorLineEnd" count="1" />
+      <entry action="EditorLineStart" count="1" />
+      <entry action="EditorPaste" count="692" />
+      <entry action="EditorPasteSimple" count="1" />
+      <entry action="EditorRight" count="2418" />
+      <entry action="EditorSplitLine" count="7" />
+      <entry action="EditorTab" count="261" />
+      <entry action="EditorToggleColumnMode" count="3" />
+      <entry action="EditorToggleInsertState" count="2" />
+      <entry action="EditorUnindentSelection" count="7" />
+      <entry action="EditorUp" count="9728" />
+      <entry action="FileChooser.GotoDesktop" count="3" />
+      <entry action="FileChooser.GotoHome" count="6" />
+      <entry action="FileChooser.GotoProject" count="2" />
+      <entry action="FileChooser.NewFolder" count="1" />
+      <entry action="FileChooser.Refresh" count="1" />
+      <entry action="FindInPath" count="1" />
+      <entry action="FindNext" count="2" />
+      <entry action="Generate" count="11" />
+      <entry action="Git.Add" count="23" />
+      <entry action="Git.CompareWithBranch" count="1" />
+      <entry action="Git.Configure.Remotes" count="8" />
+      <entry action="Git.Init" count="2" />
+      <entry action="Github.Share" count="1" />
+      <entry action="GotoClass" count="9" />
+      <entry action="GotoDeclaration" count="1" />
+      <entry action="HideAllWindows" count="13" />
+      <entry action="Images.Editor.ToggleGrid" count="1" />
+      <entry action="MakeGradleProject" count="6" />
+      <entry action="NewClass" count="6" />
+      <entry action="NewFile" count="3" />
+      <entry action="NewProject" count="2" />
+      <entry action="OpenFile" count="3" />
+      <entry action="OverrideMethods" count="3" />
+      <entry action="PasteMultiple" count="1" />
+      <entry action="Progress Resumed" count="1" />
+      <entry action="RenameFile" count="1" />
+      <entry action="Run" count="144" />
+      <entry action="SaveAll" count="296" />
+      <entry action="SearchEverywhere" count="6" />
+      <entry action="Show.Current.Revision" count="1" />
+      <entry action="ShowColorPicker" count="1" />
+      <entry action="ShowIntentionActions" count="27" />
+      <entry action="ShowPopupMenu" count="1" />
+      <entry action="ShowSettings" count="1" />
+      <entry action="Start.Use.Vcs" count="8" />
+      <entry action="Stop" count="1" />
+      <entry action="ToggleBookmarkWithMnemonic" count="2" />
+      <entry action="ToggleLineBreakpoint" count="3" />
+      <entry action="Vcs.Checkout.CVS" count="1" />
+      <entry action="Vcs.Checkout.Git" count="3" />
+      <entry action="Vcs.Push" count="26" />
+      <entry action="Vcs.RefreshStatuses" count="2" />
+      <entry action="Vcs.UpdateProject" count="2" />
+    </counts>
+  </component>
+  <component name="FeatureUsageStatistics" first-run="1540802468365" have-been-shown="false" show-in-other="true" show-in-compilation="true">
+    <feature id="refactoring.moveTopLevel" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.introduceTypedef" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.rename" count="1" last-shown="0" last-used="1541949165817" shown-count="0" />
+    <feature id="refactoring.pushDown" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.inlineMacro" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.changeSignature" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="codeassists.quickFix" count="35" last-shown="0" last-used="1541968209584" shown-count="0" />
+    <feature id="codeassists.altInsert" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="codeassists.complete.statement" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.inlineTypedef" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="navigation.goto.inspection" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.introduceConstant" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.pullUp" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="navigation.popup.class" count="9" last-shown="0" last-used="1541662273075" shown-count="0" />
+    <feature id="codeassists.overrideimplement" count="3" last-shown="0" last-used="1541948813851" shown-count="0" />
+    <feature id="codeassists.parameterInfo" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.inlineParameter" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="codeassists.quickdefinition" count="0" last-shown="1541929317556" last-used="0" shown-count="1" />
+    <feature id="editing.completion.basic" count="507" last-shown="0" last-used="1542014771479" shown-count="0" />
+    <feature id="refactoring.inlineConst" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="tag.name.completion" count="0" last-shown="0" last-used="0" shown

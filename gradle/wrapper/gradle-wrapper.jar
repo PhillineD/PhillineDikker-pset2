@@ -1,0 +1,307 @@
+<application>
+  <component name="ActionsCollector">
+    <counts>
+      <entry action="$Copy" count="4" />
+      <entry action="$Delete" count="10" />
+      <entry action="$Paste" count="21" />
+      <entry action="$SelectAll" count="1" />
+      <entry action="$Undo" count="387" />
+      <entry action="ActivateLogcatToolWindow" count="2" />
+      <entry action="ActivateProjectToolWindow" count="1" />
+      <entry action="ChangesView.AddUnversioned.From.Dialog" count="1" />
+      <entry action="ChangesView.Refresh" count="1" />
+      <entry action="ChangesView.Shelve" count="1" />
+      <entry action="CheckForUpdate" count="1" />
+      <entry action="CheckinFiles" count="8" />
+      <entry action="CheckinProject" count="31" />
+      <entry action="CloseProject" count="1" />
+      <entry action="CodeCompletion" count="2" />
+      <entry action="CollapseSelection" count="3" />
+      <entry action="CommentByLineComment" count="148" />
+      <entry action="CopyReference" count="2" />
+      <entry action="CreateRunConfiguration" count="1" />
+      <entry action="EditorBackSpace" count="4987" />
+      <entry action="EditorChooseLookupItem" count="22" />
+      <entry action="EditorChooseLookupItemReplace" count="482" />
+      <entry action="EditorCodeBlockEnd" count="1" />
+      <entry action="EditorCopy" count="233" />
+      <entry action="EditorCut" count="37" />
+      <entry action="EditorDelete" count="117" />
+      <entry action="EditorDeleteToWordEnd" count="7" />
+      <entry action="EditorDeleteToWordStart" count="2" />
+      <entry action="EditorDown" count="9528" />
+      <entry action="EditorEnter" count="985" />
+      <entry action="EditorEscape" count="1" />
+      <entry action="EditorIndentSelection" count="4" />
+      <entry action="EditorLeft" count="1513" />
+      <entry action="EditorLineEnd" count="1" />
+      <entry action="EditorLineStart" count="1" />
+      <entry action="EditorPaste" count="692" />
+      <entry action="EditorPasteSimple" count="1" />
+      <entry action="EditorRight" count="2393" />
+      <entry action="EditorSplitLine" count="7" />
+      <entry action="EditorTab" count="261" />
+      <entry action="EditorToggleColumnMode" count="3" />
+      <entry action="EditorToggleInsertState" count="2" />
+      <entry action="EditorUnindentSelection" count="7" />
+      <entry action="EditorUp" count="9636" />
+      <entry action="FileChooser.GotoDesktop" count="3" />
+      <entry action="FileChooser.GotoHome" count="6" />
+      <entry action="FileChooser.GotoProject" count="2" />
+      <entry action="FileChooser.NewFolder" count="1" />
+      <entry action="FileChooser.Refresh" count="1" />
+      <entry action="FindInPath" count="1" />
+      <entry action="FindNext" count="2" />
+      <entry action="Generate" count="11" />
+      <entry action="Git.Add" count="22" />
+      <entry action="Git.CompareWithBranch" count="1" />
+      <entry action="Git.Configure.Remotes" count="8" />
+      <entry action="Git.Init" count="2" />
+      <entry action="Github.Share" count="1" />
+      <entry action="GotoClass" count="9" />
+      <entry action="GotoDeclaration" count="1" />
+      <entry action="HideAllWindows" count="13" />
+      <entry action="Images.Editor.ToggleGrid" count="1" />
+      <entry action="MakeGradleProject" count="6" />
+      <entry action="NewClass" count="6" />
+      <entry action="NewFile" count="2" />
+      <entry action="NewProject" count="2" />
+      <entry action="OpenFile" count="3" />
+      <entry action="OverrideMethods" count="3" />
+      <entry action="PasteMultiple" count="1" />
+      <entry action="Progress Resumed" count="1" />
+      <entry action="RenameFile" count="1" />
+      <entry action="Run" count="143" />
+      <entry action="SaveAll" count="295" />
+      <entry action="SearchEverywhere" count="6" />
+      <entry action="Show.Current.Revision" count="1" />
+      <entry action="ShowColorPicker" count="1" />
+      <entry action="ShowIntentionActions" count="27" />
+      <entry action="ShowPopupMenu" count="1" />
+      <entry action="ShowSettings" count="1" />
+      <entry action="Start.Use.Vcs" count="8" />
+      <entry action="Stop" count="1" />
+      <entry action="ToggleBookmarkWithMnemonic" count="2" />
+      <entry action="ToggleLineBreakpoint" count="3" />
+      <entry action="Vcs.Checkout.CVS" count="1" />
+      <entry action="Vcs.Checkout.Git" count="3" />
+      <entry action="Vcs.Push" count="24" />
+      <entry action="Vcs.RefreshStatuses" count="2" />
+      <entry action="Vcs.UpdateProject" count="2" />
+    </counts>
+  </component>
+  <component name="FeatureUsageStatistics" first-run="1540802468365" have-been-shown="false" show-in-other="true" show-in-compilation="true">
+    <feature id="refactoring.moveTopLevel" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.introduceTypedef" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.rename" count="1" last-shown="0" last-used="1541949165817" shown-count="0" />
+    <feature id="refactoring.pushDown" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.inlineMacro" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.changeSignature" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="codeassists.quickFix" count="35" last-shown="0" last-used="1541968209584" shown-count="0" />
+    <feature id="codeassists.altInsert" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="codeassists.complete.statement" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.inlineTypedef" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="navigation.goto.inspection" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.introduceConstant" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.pullUp" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="navigation.popup.class" count="9" last-shown="0" last-used="1541662273075" shown-count="0" />
+    <feature id="codeassists.overrideimplement" count="3" last-shown="0" last-used="1541948813851" shown-count="0" />
+    <feature id="codeassists.parameterInfo" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.inlineParameter" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="codeassists.quickdefinition" count="0" last-shown="1541929317556" last-used="0" shown-count="1" />
+    <feature id="editing.completion.basic" count="507" last-shown="0" last-used="1542014771479" shown-count="0" />
+    <feature id="refactoring.inlineConst" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="tag.name.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="generate.definitions" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.extractMethod" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.introduceDefine" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="codeassists.surroundwith.expression" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="editing.select.word" count="51" last-shown="0" last-used="1542013871751" shown-count="0" />
+    <feature id="refactoring.extractSuperclass" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="navigation.goto.declaration" count="1" last-shown="0" last-used="1541065504357" shown-count="0" />
+    <feature id="refactoring.inlineMethod" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.extractSubclass" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="editing.completion.smarttype.general" count="0" last-shown="1542014452394" last-used="0" shown-count="535" />
+    <feature id="navigation.popup.file.structure" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="codeassists.new.cmake.project" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="codeassists.liveTemplates" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="navigation.select.in" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="navigation.goto.usages" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="codeassists.quickjavadoc" count="0" last-shown="1541929317556" last-used="0" shown-count="1" />
+    <feature id="refactoring.introduceParameter" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.inlineLocalVar" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="editing.completion.changeSorting" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.appCodeIntroduceVariable" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.moveMembers" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <completionStatsTag>
+      <option name="sparedCharacters" value="2894" />
+      <option name="invocations" value="370" />
+      <option name="startDate" value="1540940400000" />
+      <option name="dayCount" value="8" />
+      <option name="lastDate" value="1541977200000" />
+    </completionStatsTag>
+    <fixesStatsTag>
+      <option name="invocations" value="35" />
+      <option name="startDate" value="1541026800000" />
+      <option name="dayCount" value="5" />
+      <option name="lastDate" value="1541890800000" />
+    </fixesStatsTag>
+  </component>
+  <component name="IntentionsCollector">
+    <Intentions>
+      <entry name="JAVA codeInspection.dataFlow.EditContractIntention" count="1" />
+      <entry name="JAVA com.siyeh.ig.style.UnnecessaryBlockStatementInspection$UnnecessaryBlockFix" count="1" />
+      <entry name="JAVA com.siyeh.ipp.bool.FlipComparisonIntention" count="2" />
+      <entry name="JAVA com.siyeh.ipp.enumswitch.CreateEnumSwitchBranchesIntention" count="1" />
+      <entry name="JAVA com.siyeh.ipp.modifiers.MakePrivateIntention" count="1" />
+      <entry name="JAVA com.siyeh.ipp.modifiers.MakePublicIntention" count="2" />
+      <entry name="JAVA daemon.impl.quickfix.AddExtLibraryDependencyFix" count="1" />
+      <entry name="JAVA daemon.impl.quickfix.AddMethodQualifierFix" count="2" />
+      <entry name="JAVA daemon.impl.quickfix.AddReturnFix" count="1" />
+      <entry name="JAVA daemon.impl.quickfix.CreateClassFromUsageFix" count="3" />
+      <entry name="JAVA daemon.impl.quickfix.DefineParamsDefaultValueAction" count="1" />
+      <entry name="JAVA daemon.impl.quickfix.PullAsAbstractUpFix" count="1" />
+      <entry name="JAVA daemon.impl.quickfix.RenameWrongRefFix" count="3" />
+      <entry name="JAVA formatting.contextConfiguration.ConfigureCodeStyleOnSelectedFragment" count="2" />
+      <entry name="JAVA intention.impl.AddOnDemandStaticImportAction" count="1" />
+      <entry name="JAVA intention.impl.IntroduceVariableIntentionAction" count="1" />
+      <entry name="JAVA intention.impl.RunRefactoringAction" count="1" />
+      <entry name="JAVA intention.impl.SplitDeclarationAction" count="1" />
+      <entry name="JAVA lang.java.actions.CreateConstantAction" count="1" />
+      <entry name="JAVA lang.java.actions.CreateMethodAction" count="1" />
+      <entry name="JAVA testIntegration.createTest.CreateTestAction" count="2" />
+      <entry name="XML com.android.tools.idea.actions.OverrideResourceAction" count="2" />
+      <entry name="XML daemon.impl.analysis.ConvertSchemaPrefixToDefaultIntention" count="1" />
+      <entry name="XML daemon.impl.analysis.XmlUnusedNamespaceInspection$RemoveNamespaceDeclarationFix" count="1" />
+      <entry name="XML org.jetbrains.android.inspections.AndroidMissingOnClickHandlerInspection$MyQuickFix" count="1" />
+    </Intentions>
+  </component>
+  <component name="MainMenuCollector">
+    <counts>
+      <entry path="Code -&gt; Generate..." count="6" />
+      <entry path="File -&gt; Close Project" count="1" />
+      <entry path="File -&gt; New -&gt; Java Class" count="4" />
+      <entry path="File -&gt; New -&gt; New Project..." count="2" />
+      <entry path="File -&gt; Open..." count="3" />
+      <entry path="File -&gt; Save All" count="6" />
+      <entry path="File -&gt; Settings..." count="1" />
+      <entry path="Help -&gt; Check for Updates..." count="1" />
+      <entry path="VCS -&gt; Checkout from Version Control -&gt; CVS" count="1" />
+      <entry path="VCS -&gt; Checkout from Version Control -&gt; Git" count="3" />
+      <entry path="VCS -&gt; Commit" count="17" />
+      <entry path="VCS -&gt; Enable Version Control Integration..." count="8" />
+      <entry path="VCS -&gt; Git -&gt; Add" count="22" />
+      <entry path="VCS -&gt; Git -&gt; Commit File" count="8" />
+      <entry path="VCS -&gt; Git -&gt; Compare with Branch..." count="1" />
+      <entry path="VCS -&gt; Git -&gt; Push..." count="24" />
+      <entry path="VCS -&gt; Git -&gt; Remotes..." count="8" />
+      <entry path="VCS -&gt; Git -&gt; Show Current Revision" count="1" />
+      <entry path="VCS -&gt; Import into Version Control -&gt; Create Git Repository..." count="2" />
+      <entry path="VCS -&gt; Import into Version Control -&gt; Share Project on GitHub" count="1" />
+      <entry path="VCS -&gt; Refresh File Status" count="2" />
+      <entry path="VCS -&gt; Shelve Changes..." count="1" />
+      <entry path="VCS -&gt; Update Project" count="2" />
+      <entry path="View -&gt; Tool Windows -&gt; Logcat" count="2" />
+      <entry path="View -&gt; Tool Windows -&gt; Project" count="1" />
+    </counts>
+  </component>
+  <component name="ShortcutsCollector">
+    <counts>
+      <entry shortcut="Alt+Backspace" count="1" />
+      <entry shortcut="Alt+Enter" count="27" />
+      <entry shortcut="Backspace" count="4965" />
+      <entry shortcut="Context Menu" count="1" />
+      <entry shortcut="Ctrl+A" count="1" />
+      <entry shortcut="Ctrl+B" count="1" />
+      <entry shortcut="Ctrl+Backspace" count="2" />
+      <entry shortcut="Ctrl+C" count="234" />
+      <entry shortcut="Ctrl+Close Bracket" count="1" />
+      <entry shortcut="Ctrl+Delete" count="7" />
+      <entry shortcut="Ctrl+Enter" count="7" />
+      <entry shortcut="Ctrl+F1" count="2" />
+      <entry shortcut="Ctrl+F11" count="2" />
+      <entry shortcut="Ctrl+K" count="14" />
+      <entry shortcut="Ctrl+L" count="3" />
+      <entry shortcut="Ctrl+N" count="9" />
+      <entry shortcut="Ctrl+O" count="3" />
+      <entry shortcut="Ctrl+Period" count="3" />
+      <entry shortcut="Ctrl+S" count="289" />
+      <entry shortcut="Ctrl+Slash" count="148" />
+      <entry shortcut="Ctrl+Space" count="2" />
+      <entry shortcut="Ctrl+V" count="703" />
+      <entry shortcut="Ctrl+X" count="30" />
+      <entry shortcut="Ctrl+Z" count="386" />
+      <entry shortcut="Delete" count="119" />
+      <entry shortcut="Down" count="9528" />
+      <entry shortcut="End" count="1" />
+      <entry shortcut="Enter" count="1007" />
+      <entry shortcut="Escape" count="1" />
+      <entry shortcut="Home" count="1" />
+      <entry shortcut="Insert" count="2" />
+      <entry shortcut="Left" count="1513" />
+      <entry shortcut="Right" count="2393" />
+      <entry shortcut="Shift+Backspace" count="22" />
+      <entry shortcut="Shift+Delete" count="7" />
+      <entry shortcut="Shift+Shift" count="6" />
+      <entry shortcut="Shift+Tab" count="7" />
+      <entry shortcut="Tab" count="747" />
+      <entry shortcut="Up" count="9636" />
+    </counts>
+  </component>
+  <component name="ToolbarClicksCollector">
+    <counts>
+      <entry action="ChangesView.AddUnversioned.From.Dialog@ChangesBrowser" count="1" />
+      <entry action="ChangesView.Refresh@ChangesBrowser" count="1" />
+      <entry action="FileChooser.GotoDesktop@FileChooserDialog" count="3" />
+      <entry action="FileChooser.GotoHome@FileChooserDialog" count="6" />
+      <entry action="FileChooser.GotoProject@FileChooserDialog" count="2" />
+      <entry action="FileChooser.NewFolder@FileChooserDialog" count="1" />
+      <entry action="FileChooser.Refresh@FileChooserDialog" count="1" />
+      <entry action="MakeGradleProject@NavBarToolbar" count="6" />
+      <entry action="Run@NavBarToolbar" count="143" />
+      <entry action="RunConfiguration@NavBarToolbar" count="3" />
+      <entry action="Show Options@ToolWindowHeader" count="1" />
+      <entry action="ShowColorPicker@Images.Editor" count="1" />
+      <entry action="Stop@NavBarToolbar" count="1" />
+      <entry action="com.android.tools.adtui.workbench.AttachedToolWindow$GearAction@TOOL_WINDOW_TOOLBAR" count="3" />
+      <entry action="com.android.tools.adtui.workbench.AttachedToolWindow$HideAction@TOOL_WINDOW_TOOLBAR" count="1" />
+      <entry action="com.android.tools.adtui.workbench.AttachedToolWindow$SearchAction@TOOL_WINDOW_TOOLBAR" count="2" />
+      <entry action="com.android.tools.idea.common.error.IssuePanel$MinimizeAction@unknown" count="5" />
+      <entry action="com.android.tools.idea.configurations.DeviceMenuAction@toolbar" count="8" />
+      <entry action="com.android.tools.idea.configurations.LocaleMenuAction@toolbar" count="2" />
+      <entry action="com.android.tools.idea.configurations.OrientationMenuAction@toolbar" count="11" />
+      <entry action="com.android.tools.idea.configurations.ThemeMenuAction@toolbar" count="2" />
+      <entry action="com.android.tools.idea.logcat.LogcatConsoleActionsPostProcessor$ClearLogCatAction@AndroidLogcatView" count="1" />
+      <entry action="com.android.tools.idea.uibuilder.editor.NlActionManager$DirectViewActionWrapper@NlLayoutToolbar" count="4" />
+      <entry action="com.android.tools.idea.uibuilder.editor.NlActionManager$ToggleViewActionWrapper@NlLayoutToolbar" count="2" />
+      <entry action="com.android.tools.idea.uibuilder.editor.NlActionManager$ViewActionToolbarMenuWrapper@toolbar" count="4" />
+      <entry action="com.android.tools.idea.uibuilder.property.ViewAllPropertiesAction@TOOL_WINDOW_TOOLBAR" count="14" />
+      <entry action="com.android.tools.idea.uibuilder.property.editors.BrowsePanel$1@unknown" count="30" />
+      <entry action="com.android.tools.idea.uibuilder.property.editors.BrowsePanel$BrowseAction@unknown" count="35" />
+      <entry action="com.intellij.ide.actions.PreviousOccurenceToolbarAction@AndroidLogcatView" count="13" />
+      <entry action="com.intellij.ide.util.gotoByName.ChooseByNameFilter$1@gotfile.filter" count="2" />
+      <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="6" />
+    </counts>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="1" />
+      <entry feature="StripeButton[Android Profiler].hidden" count="9" />
+      <entry feature="StripeButton[Android Profiler].shown" count="7" />
+      <entry feature="StripeButton[Version Control].shown" count="3" />
+      <entry feature="configure.code.style.on.selected.fragment" count="2" />
+      <entry feature="diff.DirDiffTableModel" count="1" />
+      <entry feature="diff.DirDiffViewer" count="1" />
+      <entry feature="execute.AndroidRunConfigurationType.Run" count="143" />
+      <entry feature="ide.settings.Git" count="1" />
+      <entry feature="ideaapp.started" count="9" />
+      <entry feature="project.view.pane.AndroidView" count="1" />
+      <entry feature="project.view.pane.PackagesPane" count="2" />
+      <entry feature="project.view.pane.ProjectPane" count="5" />
+      <entry feature="project.view.pane.Scope.Project Files" count="1" />
+      <entry feature="terminal.win" count="2" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="2" />
+    </counts>
+  </component>
+  <component name="UsagesStatistic" show-notification="false" />
+</application>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
