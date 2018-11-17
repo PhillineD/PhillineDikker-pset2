@@ -7,12 +7,66 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_width="263dp"
+        android:layout_height="111dp"
+        android:gravity="center"
+        android:text="Mad Libs is a phrasal template word game where one player prompts others for a list of words to substitute for blanks in a story"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="92dp"
+        android:layout_height="103dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="186dp"
+        tools:src="@tools:sample/avatars[3]" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="93dp"
+        android:layout_height="99dp"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="297dp"
+        tools:src="@tools:sample/avatars[6]" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="92dp"
+        android:layout_height="87dp"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="186dp"
+        tools:src="@tools:sample/avatars[11]" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's start!"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="95dp"
+        android:layout_height="111dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="356dp"
+        tools:src="@tools:sample/avatars[2]" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:gravity="center"
+        android:text="Mad Libs"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="3dp" />
 
 </android.support.constraint.ConstraintLayout>
