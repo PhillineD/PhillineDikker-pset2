@@ -4,7 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.view.LayoutInflater;
@@ -21,22 +23,44 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.second_activity);
 
         // Get the story - Tarzan
+//        CheckBox tarzan = (CheckBox) findViewById(R.id.Tarzan);
+//        if (tarzan.isChecked()){
         InputStream stream  = this.getResources().openRawResource(R.raw.madlib1_tarzan);
         madestory = new Story(stream);
+//        }
 
+//
         // Update the user the progress
         Progress = findViewById(R.id.progress);
         Progress.setText(String.valueOf(Story.getPlaceholderCount()));
     }
 
+    public void PickStory(View view) {
+        CheckBox tarzan = (CheckBox) findViewById(R.id.Tarzan);
+        if (tarzan.isChecked()) {
+            Log.d("mainactivy", "PickStory: ");
+            InputStream stream  = this.getResources().openRawResource(R.raw.madlib0_simple);
+            madestory = new Story(stream);
+        }
+    }
+
     public void TypedWord(View view){
 
+//        InputStream stream  = this.getResources().openRawResource(R.raw.madlib1_tarzan);
+//        madestory = new Story(stream);
         // get the word that typed in by user, fill in the next placeholder
         EditText nextword = findViewById(R.id.input);
         String word = nextword.getText().toString();
 //        Story.fillInPlaceholder(String.valueOf(nextword));
 //        Story.fillInPlaceholder("Philline");
         Story.fillInPlaceholder(word);
+
+//        CheckBox tarzan = (CheckBox) findViewById(R.id.Tarzan);
+//        if (tarzan.isChecked()){
+//            InputStream stream  = this.getResources().openRawResource(R.raw.madlib0_simple);
+//            madestory = new Story(stream);
+//        }
+
 
         // when all words are typed start activity: LastActivity.class
         if (Story.isFilledIn()){
