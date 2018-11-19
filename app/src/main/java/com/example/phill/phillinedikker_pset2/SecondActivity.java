@@ -22,22 +22,18 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(OutState);
         setContentView(R.layout.second_activity);
 
-        // Get the story - Tarzan
-//        CheckBox tarzan = (CheckBox) findViewById(R.id.Tarzan);
-//        if (tarzan.isChecked()){
-        InputStream stream  = this.getResources().openRawResource(R.raw.madlib1_tarzan);
-        madestory = new Story(stream);
-//        }
-
-//
         // Update the user the progress
         Progress = findViewById(R.id.progress);
-        Progress.setText(String.valueOf(Story.getPlaceholderCount()));
+        Progress.setText("Words left..");
     }
 
     public void PickStory(View view) {
         CheckBox tarzan = (CheckBox) findViewById(R.id.Tarzan);
         CheckBox simple = (CheckBox) findViewById(R.id.Simple);
+        CheckBox uni = (CheckBox) findViewById(R.id.university);
+        CheckBox clothes = (CheckBox) findViewById(R.id.clothes);
+        CheckBox dance = (CheckBox) findViewById(R.id.dance);
+
         if (tarzan.isChecked()) {
             Log.d("mainactivy", "PickStory: ");
             InputStream stream  = this.getResources().openRawResource(R.raw.madlib1_tarzan);
@@ -48,25 +44,34 @@ public class SecondActivity extends AppCompatActivity {
             InputStream stream  = this.getResources().openRawResource(R.raw.madlib0_simple);
             madestory = new Story(stream);
         }
+        else if (uni.isChecked()) {
+            Log.d("mainactivy", "SImpel ");
+            InputStream stream  = this.getResources().openRawResource(R.raw.madlib2_university);
+            madestory = new Story(stream);
+        }
+        else if (clothes.isChecked()) {
+            Log.d("mainactivy", "SImpel ");
+            InputStream stream  = this.getResources().openRawResource(R.raw.madlib3_clothes);
+            madestory = new Story(stream);
+        }
+        else if (dance.isChecked()) {
+            Log.d("mainactivy", "SImpel ");
+            InputStream stream  = this.getResources().openRawResource(R.raw.madlib4_dance);
+            madestory = new Story(stream);
+        }
+
+        Progress = findViewById(R.id.progress);
+        Progress.setText(String.valueOf(Story.getPlaceholderCount()));
+
     }
 
     public void TypedWord(View view){
 
-//        InputStream stream  = this.getResources().openRawResource(R.raw.madlib1_tarzan);
-//        madestory = new Story(stream);
+
         // get the word that typed in by user, fill in the next placeholder
         EditText nextword = findViewById(R.id.input);
         String word = nextword.getText().toString();
-//        Story.fillInPlaceholder(String.valueOf(nextword));
-//        Story.fillInPlaceholder("Philline");
         Story.fillInPlaceholder(word);
-
-//        CheckBox tarzan = (CheckBox) findViewById(R.id.Tarzan);
-//        if (tarzan.isChecked()){
-//            InputStream stream  = this.getResources().openRawResource(R.raw.madlib0_simple);
-//            madestory = new Story(stream);
-//        }
-
 
         // when all words are typed start activity: LastActivity.class
         if (Story.isFilledIn()){

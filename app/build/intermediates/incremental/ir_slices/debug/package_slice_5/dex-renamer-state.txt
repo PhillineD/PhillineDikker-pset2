@@ -1,4 +1,4 @@
-#Mon Nov 19 15:31:44 CET 2018
+#Mon Nov 19 18:11:50 CET 2018
 base.0=C\:\\Users\\phill\\Documents\\MinorProgrammeren\\PhillineDikkerpset2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
 path.0=classes.dex
 renamed.0=classes.dex
