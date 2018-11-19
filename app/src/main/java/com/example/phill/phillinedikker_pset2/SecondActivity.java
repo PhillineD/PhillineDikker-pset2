@@ -12,8 +12,8 @@ import java.io.InputStream;
 
 public class SecondActivity extends AppCompatActivity {
 
-    TextView Progress;
-    private Story madestory;
+    public TextView Progress;
+    public Story madestory;
 
     @Override
     protected void onCreate(@Nullable Bundle OutState) {
@@ -21,19 +21,19 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.second_activity);
 
         // Get the story - Tarzan
-        InputStream stream  = this.getResources().openRawResource(R.raw.madlib1_tarzan.txt);
+        InputStream stream  = this.getResources().openRawResource(R.raw.madlib1_tarzan);
         madestory = new Story(stream);
 
         // Update the user the progress
         Progress = findViewById(R.id.progress);
-        Progress.setText(Story.getPlaceholderCount());
+        Progress.setText(String.valueOf(Story.getPlaceholderCount()));
     }
 
     public void TypedWord(View view){
 
         // get the word that typed in by user, fill in the next placeholder
         EditText nextword = findViewById(R.id.input);
-        Story.fillInPlaceholder(nextword);
+        Story.fillInPlaceholder(String.valueOf(nextword));
 
         // when all words are typed start activity: LastActivity.class
         if (Story.isFilledIn()){
@@ -48,10 +48,10 @@ public class SecondActivity extends AppCompatActivity {
         else{
 
             // update the progress
-            Progress.setText(Story.getPlaceholderRemainingCount());
+            Progress.setText(String.valueOf(Story.getPlaceholderRemainingCount()));
 
             // set word in story
-            nextword.setText(Story.getNextPlaceholder());
+            nextword.setText(String.valueOf(Story.getNextPlaceholder()));
         }
     }
 

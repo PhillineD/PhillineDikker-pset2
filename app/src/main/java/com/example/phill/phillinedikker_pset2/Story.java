@@ -23,9 +23,9 @@ import java.io.*;
 import java.util.*;
 
 public class Story implements Serializable {
-    private String text;                 // text of the story
-    private List<String> placeholders;   // list of placeholders to fill in
-    private int filledIn;                // number of placeholders that have been filled in
+    private static String text;                 // text of the story
+    private static List<String> placeholders;   // list of placeholders to fill in
+    private static int filledIn;                // number of placeholders that have been filled in
     private boolean htmlMode;            // set to true to surround placeholders with <b></b> tags
 
     {
@@ -51,7 +51,7 @@ public class Story implements Serializable {
     }
 
     /** replaces the next unfilled placeholder with the given word */
-    public void fillInPlaceholder(String word) {
+    public static void fillInPlaceholder(String word) {
         if (!isFilledIn()) {
             text = text.replace("<" + filledIn + ">", word);
             filledIn++;
@@ -60,7 +60,7 @@ public class Story implements Serializable {
 
     /** returns the next placeholder such as "adjective",
      *  or empty string if story is completely filled in already */
-    public String getNextPlaceholder() {
+    public static String getNextPlaceholder() {
         if (isFilledIn()) {
             return "";
         } else {
@@ -69,17 +69,17 @@ public class Story implements Serializable {
     }
 
     /** returns total number of placeholders in the story */
-    public int getPlaceholderCount() {
+    public static int getPlaceholderCount() {
         return placeholders.size();
     }
 
     /** returns how many placeholders still need to be filled in */
-    public int getPlaceholderRemainingCount() {
+    public static int getPlaceholderRemainingCount() {
         return placeholders.size() - filledIn;
     }
 
     /** returns true if all placeholders have been filled in */
-    public boolean isFilledIn() {
+    public static boolean isFilledIn() {
         return filledIn >= placeholders.size();
     }
 
