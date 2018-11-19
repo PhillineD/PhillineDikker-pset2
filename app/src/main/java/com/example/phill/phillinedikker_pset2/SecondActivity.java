@@ -33,15 +33,19 @@ public class SecondActivity extends AppCompatActivity {
 
         // get the word that typed in by user, fill in the next placeholder
         EditText nextword = findViewById(R.id.input);
-        Story.fillInPlaceholder(String.valueOf(nextword));
+        String word = nextword.getText().toString();
+//        Story.fillInPlaceholder(String.valueOf(nextword));
+//        Story.fillInPlaceholder("Philline");
+        Story.fillInPlaceholder(word);
 
         // when all words are typed start activity: LastActivity.class
         if (Story.isFilledIn()){
 
             // go to next page: LastAcivity and pass the whole story
             Intent givestory = new Intent(this, LastActivity.class );
-            givestory.putExtra("story", givestory.toString());
+            givestory.putExtra("story",madestory.toString());
             startActivity(givestory);
+            finish();
         }
 
         // when not all words are typed in get next, stay at second_activity.xml
