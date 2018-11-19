@@ -57,10 +57,6 @@ public class SecondActivity extends AppCompatActivity {
             Log.d("mainactivy", "PickStory: ");
             InputStream stream  = this.getResources().openRawResource(R.raw.madlib1_tarzan);
             madestory = new Story(stream);
-//            uni.setVisibility(View.INVISIBLE);
-//            simple.setVisibility(View.INVISIBLE);
-//            clothes.setVisibility(View.INVISIBLE);
-//            dance.setVisibility(View.INVISIBLE);
             if (uni.getVisibility() == View.VISIBLE ) {
                 uni.setVisibility(View.INVISIBLE);
                 simple.setVisibility(View.INVISIBLE);
