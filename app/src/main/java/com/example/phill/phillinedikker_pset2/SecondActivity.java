@@ -16,12 +16,36 @@ public class SecondActivity extends AppCompatActivity {
 
     public TextView Progress;
     public Story madestory;
-
+    private CheckBox simple;
+    private CheckBox tarzan;
+    private CheckBox uni;
+    private CheckBox dance;
+    private CheckBox clothes;
     @Override
     protected void onCreate(@Nullable Bundle OutState) {
         super.onCreate(OutState);
         setContentView(R.layout.second_activity);
 
+        tarzan = (CheckBox) findViewById(R.id.Tarzan);
+        simple =  findViewById(R.id.Simple);
+        uni = (CheckBox) findViewById(R.id.university);
+        clothes = (CheckBox) findViewById(R.id.clothes);
+        dance = (CheckBox) findViewById(R.id.dance);
+//        Boolean simplecheck = simple.isChecked();
+//        Boolean tarzancheck = tarzan.isChecked();
+//        Boolean unicheck = uni.isChecked();
+//        Boolean clothescheck = clothes.isChecked();
+//        Boolean dancecheck= dance.isChecked();
+
+
+        // if something is already saved
+        if (OutState != null){
+            simple.setChecked(OutState.getBoolean("simple"));
+            uni.setChecked(OutState.getBoolean("uni"));
+            tarzan.setChecked(OutState.getBoolean("tarzan"));
+            clothes.setChecked(OutState.getBoolean("clothes"));
+            dance.setChecked(OutState.getBoolean("dance"));
+        }
         // Update the user the progress
         Progress = findViewById(R.id.progress);
         Progress.setText("Words left..");
@@ -34,6 +58,7 @@ public class SecondActivity extends AppCompatActivity {
         CheckBox clothes = (CheckBox) findViewById(R.id.clothes);
         CheckBox dance = (CheckBox) findViewById(R.id.dance);
 
+        // The user should be allowed to pick one of the stories before starting.
         if (tarzan.isChecked()) {
             Log.d("mainactivy", "PickStory: ");
             InputStream stream  = this.getResources().openRawResource(R.raw.madlib1_tarzan);
@@ -101,5 +126,10 @@ public class SecondActivity extends AppCompatActivity {
 
         // made story is saved in "story"
         outState.putSerializable("story", madestory);
+        outState.putBoolean("simple", simple.isChecked() );
+        outState.putBoolean("tarzan", tarzan.isChecked() );
+        outState.putBoolean("uni", uni.isChecked() );
+        outState.putBoolean("clothes", clothes.isChecked() );
+        outState.putBoolean("dance", dance.isChecked() );
     }
 }
