@@ -67,7 +67,7 @@
     <TextView
         android:id="@+id/textView6"
         android:layout_width="403dp"
-        android:layout_height="34dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Type in the words you want in your story"
         android:textColor="@color/colorPrimaryDark"
@@ -82,11 +82,8 @@
 
     <EditText
         android:id="@+id/input"
-        android:layout_width="186dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="32dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="word"
@@ -95,11 +92,10 @@
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="32dp"
         android:layout_marginStart="148dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="148dp"
-        android:layout_marginBottom="51dp"
         android:background="@color/lime"
         android:onClick="TypedWord"
         android:text="Ok" />

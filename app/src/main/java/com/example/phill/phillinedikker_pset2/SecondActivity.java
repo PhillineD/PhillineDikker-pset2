@@ -31,12 +31,6 @@ public class SecondActivity extends AppCompatActivity {
         uni = (CheckBox) findViewById(R.id.university);
         clothes = (CheckBox) findViewById(R.id.clothes);
         dance = (CheckBox) findViewById(R.id.dance);
-//        Boolean simplecheck = simple.isChecked();
-//        Boolean tarzancheck = tarzan.isChecked();
-//        Boolean unicheck = uni.isChecked();
-//        Boolean clothescheck = clothes.isChecked();
-//        Boolean dancecheck= dance.isChecked();
-
 
         // if something is already saved
         if (OutState != null){
@@ -92,7 +86,6 @@ public class SecondActivity extends AppCompatActivity {
 
     public void TypedWord(View view){
 
-
         // get the word that typed in by user, fill in the next placeholder
         EditText nextword = findViewById(R.id.input);
         String word = nextword.getText().toString();
@@ -119,16 +112,17 @@ public class SecondActivity extends AppCompatActivity {
         }
     }
 
-
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
 
         // made story is saved in "story"
         outState.putSerializable("story", madestory);
+
+        // save checkboxes
         outState.putBoolean("simple", simple.isChecked() );
         outState.putBoolean("tarzan", tarzan.isChecked() );
-        outState.putBoolean("uni", uni.isChecked() );
+        outState.putBoolean("uni", uni.isChecked());
         outState.putBoolean("clothes", clothes.isChecked() );
         outState.putBoolean("dance", dance.isChecked() );
     }
