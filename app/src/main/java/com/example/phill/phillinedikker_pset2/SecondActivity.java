@@ -37,8 +37,14 @@ public class SecondActivity extends AppCompatActivity {
 
     public void PickStory(View view) {
         CheckBox tarzan = (CheckBox) findViewById(R.id.Tarzan);
+        CheckBox simple = (CheckBox) findViewById(R.id.Simple);
         if (tarzan.isChecked()) {
             Log.d("mainactivy", "PickStory: ");
+            InputStream stream  = this.getResources().openRawResource(R.raw.madlib1_tarzan);
+            madestory = new Story(stream);
+        }
+        else if (simple.isChecked()) {
+            Log.d("mainactivy", "SImpel ");
             InputStream stream  = this.getResources().openRawResource(R.raw.madlib0_simple);
             madestory = new Story(stream);
         }

@@ -666,6 +666,7 @@ id FilledStory
 id META
 id SHIFT
 id SYM
+id Simple
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -737,8 +738,6 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
-id imageView5
-id imageView6
 id info
 id input
 id invisible
@@ -802,6 +801,7 @@ id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id tarzan
 id text
 id text2
 id textSpacerNoButtons
@@ -809,6 +809,7 @@ id textSpacerNoTitle
 id textView
 id textView2
 id textView3
+id textView4
 id textView5
 id time
 id title
