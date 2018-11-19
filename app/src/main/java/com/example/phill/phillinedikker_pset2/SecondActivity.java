@@ -57,26 +57,60 @@ public class SecondActivity extends AppCompatActivity {
             Log.d("mainactivy", "PickStory: ");
             InputStream stream  = this.getResources().openRawResource(R.raw.madlib1_tarzan);
             madestory = new Story(stream);
+//            uni.setVisibility(View.INVISIBLE);
+//            simple.setVisibility(View.INVISIBLE);
+//            clothes.setVisibility(View.INVISIBLE);
+//            dance.setVisibility(View.INVISIBLE);
+            if (uni.getVisibility() == View.VISIBLE ) {
+                uni.setVisibility(View.INVISIBLE);
+                simple.setVisibility(View.INVISIBLE);
+                clothes.setVisibility(View.INVISIBLE);
+                dance.setVisibility(View.INVISIBLE);
+            }
         }
         else if (simple.isChecked()) {
             Log.d("mainactivy", "SImpel ");
             InputStream stream  = this.getResources().openRawResource(R.raw.madlib0_simple);
             madestory = new Story(stream);
+            if (uni.getVisibility() == View.VISIBLE ) {
+                uni.setVisibility(View.INVISIBLE);
+                tarzan.setVisibility(View.INVISIBLE);
+                clothes.setVisibility(View.INVISIBLE);
+                dance.setVisibility(View.INVISIBLE);
+            }
         }
         else if (uni.isChecked()) {
             Log.d("mainactivy", "SImpel ");
             InputStream stream  = this.getResources().openRawResource(R.raw.madlib2_university);
             madestory = new Story(stream);
+            if (tarzan.getVisibility() == View.VISIBLE ) {
+                tarzan.setVisibility(View.INVISIBLE);
+                simple.setVisibility(View.INVISIBLE);
+                clothes.setVisibility(View.INVISIBLE);
+                dance.setVisibility(View.INVISIBLE);
+            }
         }
         else if (clothes.isChecked()) {
             Log.d("mainactivy", "SImpel ");
             InputStream stream  = this.getResources().openRawResource(R.raw.madlib3_clothes);
             madestory = new Story(stream);
+            if (uni.getVisibility() == View.VISIBLE ) {
+                uni.setVisibility(View.INVISIBLE);
+                simple.setVisibility(View.INVISIBLE);
+                tarzan.setVisibility(View.INVISIBLE);
+                dance.setVisibility(View.INVISIBLE);
+            }
         }
         else if (dance.isChecked()) {
             Log.d("mainactivy", "SImpel ");
             InputStream stream  = this.getResources().openRawResource(R.raw.madlib4_dance);
             madestory = new Story(stream);
+            if (uni.getVisibility() == View.VISIBLE ) {
+                uni.setVisibility(View.INVISIBLE);
+                simple.setVisibility(View.INVISIBLE);
+                clothes.setVisibility(View.INVISIBLE);
+                tarzan.setVisibility(View.INVISIBLE);
+            }
         }
 
         Progress = findViewById(R.id.progress);
