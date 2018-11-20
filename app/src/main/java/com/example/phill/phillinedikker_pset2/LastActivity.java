@@ -1,3 +1,6 @@
+// Philline Dikker 12317608
+// Last screen form mad libs app
+
 package com.example.phill.phillinedikker_pset2;
 
 import android.app.Activity;
