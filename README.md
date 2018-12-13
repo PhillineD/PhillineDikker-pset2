@@ -7,6 +7,9 @@ Once all placeholders are filled in, the game show them the resulting silly stor
 
 
 
+Philline Dikker 12317608
+
+
 
 
 ![mad libs1](https://user-images.githubusercontent.com/43133057/48728347-fd7bbe80-ec34-11e8-9010-1c6eefaed3c6.png)
